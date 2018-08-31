@@ -7,5 +7,5 @@ server.get('',(req,res)=>{
 	res.sendFile(
 			path.resolve('./view/index.html')
 		)
-});
+})
 server.listen(80);
